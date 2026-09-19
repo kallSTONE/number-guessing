@@ -2,6 +2,8 @@
 echo "# User greeting module" >> number_guess.sh
 
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
+
+echo "# Validation module" >> number_guess.sh
 echo "# Game loop module" >> number_guess.sh
 # Prompt for username
 echo "Enter your username:"
