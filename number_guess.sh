@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "# User greeting module" >> number_guess.sh
 
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
